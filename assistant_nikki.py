@@ -26,7 +26,7 @@ class WritingNikkiContents:
             max_tokens=4096,
             messages=messages,
             )
-        self.conversation_memory.append({"AIMessage": ai_message.choices[0].message.content})
+        self.conversation_memory.append({"AImessage": ai_message.choices[0].message.content})
         return self.conversation_memory
 
     def create_draft(self, user_input):
