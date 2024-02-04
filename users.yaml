@@ -1,0 +1,12 @@
+credentials:
+  usernames:
+    bunk_kakimoto:
+      name: bunk_kakimoto
+      password: $2b$12$JH6ZB77xrIyZd/9SuptRB.0xPGdGuTzRKW20HprECILGT8yuwYjVq
+    elly_hanaoka:
+      name: elly_hanaoka
+      password: $2b$12$ttZgsOBu9rwUAK8jj8BRc.EsP.cXGvLnsw0jzGvX72WIK2.S4nz0y
+cookie:
+  expiry_days: 0
+  key: some_signature_key
+  name: some_cookie_name
